@@ -1,13 +1,20 @@
+var $grid = $('.grid').isotope({
+  itemSelector: '.grid-item',
+  layoutMode: 'fitRows',    
+  getSortData: {
+      name: '.name',
+      organisation-structure: '.organisation-structure', 
+      exchange-mechanism: '.exchange-mechanism', 
+      resource-structure: '.resource-structure',
+      resource-type: '.resource-type' 
+  }
+});
 
 
-  
-  var $grid = $('.grid').isotope({
-      itemSelector: '.grid-item',
-      layoutMode: 'fitRows',    
-      getSortData: {
-          name: '.name_of_company'
-      }
-  });
-  
-  $grid.isotope({ sortBy: 'name' })
+
+$grid.isotope({ 
+    sortBy: 'name' 
+})
+
+
   

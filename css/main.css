@@ -6,8 +6,7 @@
 
 
 
-.grid-item { width: 25%; border:1px solid black; }
-.grid-item--width2 { width: 50%; border:1px solid black; }
+.grid-item { width: 21%; border:1px solid black; margin:0.5% 1%; padding:3px }
 
 
 
