@@ -6,11 +6,35 @@
 
 
 
-.grid-item { width: 21%; border:1px solid black; margin:0.5% 1%; padding:3px }
+.grid-item { 
+    width: 21%; 
+    border:1px solid black; 
+    margin:0.5% 0.5%; 
+    
+    height:160px;
+}
 
+.sort-container { 
+    padding:10px 3px;
+    
+}
 
+.organisation-structure { 
+    position:absolute;
+    top:0px;
+    right:0px;
+}
 
+.name { 
+    margin:0px;
+    padding:3px;
+    background-color:#ccc;
+    height:2.5em;
+}
 
+.type-label, .exchange-label { 
+    font-weight:bold;
+}
 
 
 
