@@ -7,11 +7,11 @@
 
 
 .grid-item { 
-    width: 21%; 
+    width: 18%; 
     border:1px solid black; 
     margin:0.5% 0.5%; 
     
-    height:160px;
+    height:180px;
 }
 
 .sort-container { 
@@ -21,8 +21,15 @@
 
 .organisation-structure { 
     position:absolute;
+    width:20px;
     top:0px;
     right:0px;
+}
+
+.resource-type { 
+    position:absolute;
+    left:1px;
+    bottom:1px;    
 }
 
 .name { 
@@ -36,6 +43,9 @@
     font-weight:bold;
 }
 
+.grid-item div { 
+    font-size:12px;
+}
 
 
 

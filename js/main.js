@@ -12,7 +12,13 @@ var $grid = $('.grid').isotope({
       }, 
       exchange_mechanism: '.exchange-mechanism', 
       resource_structure: '.resource-structure',
-      resource_type: '.resource-type' 
+      resource_type: function( itemElem ) {
+
+          var org_type = $( itemElem ).find('.resource-type').attr('data-resource-type'); 
+          console.log(org_type);
+
+          return parseFloat(org_type);
+      }
   }
 });
 
