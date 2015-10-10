@@ -31,11 +31,14 @@ var $grid = $('.grid').isotope({
 
 
 $('.exchange_mechanism_btn').click(function(){ 
+
+  $('.description').hide();
+  $('.exchange-mechanism-description').show();  
   
   $('.category-column-1 .column-header').text('Money');
   $('.category-column-2 .column-header').text('Voluntary');
   $('.category-column-3 .column-header').text('Digital');
-  $('.category-column-4 .column-header').text('Public');
+  $('.category-column-4 .column-header').text('Centrally provided');
 
   $('.btn-default').removeClass('active'); 
   $('.exchange_mechanism_btn').addClass('active'); 
@@ -56,6 +59,10 @@ $('.exchange_mechanism_btn').click(function(){
 
 
 $('.resource_structure_btn').click(function(){ 
+
+  $('.description').hide();
+  $('.resource-structure-description').show();
+
 
   $('.category-column-1 .column-header').text('Private');
   $('.category-column-2 .column-header').html('Knowledge <br/> Commons');
@@ -83,10 +90,13 @@ $('.resource_structure_btn').click(function(){
 
 $('.fractional_capacity_btn').click(function(){
 
+  $('.description').hide();
+  $('.fractional-capacity-description').show();
+
   $('.category-column-1 .column-header').text('Not about spare capacity');
-  $('.category-column-2 .column-header').text('A bit...');
-  $('.category-column-3 .column-header').text('... a bit more');
-  $('.category-column-4 .column-header').text('Fundamentally about spare capacity'); 
+  $('.category-column-2 .column-header').text('A bit more...');
+  $('.category-column-3 .column-header').text('... even more');
+  $('.category-column-4 .column-header').text('All about spare capacity'); 
 
   $('.btn-default').removeClass('active'); 
   $('.fractional_capacity_btn').addClass('active');   
