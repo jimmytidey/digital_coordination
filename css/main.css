@@ -4,18 +4,49 @@
    Author's custom styles
    ========================================================================== */
 
+body { 
+    padding-top:0px;
+}
 
+
+
+
+
+
+
+
+.resource_type_1 {background-color: #8dd3c7}    
+.resource_type_2 {background-color: #ffffb3}    
+.resource_type_3 {background-color: #bebada}    
+.resource_type_4 {background-color: #fb8072}    
+.resource_type_5 {background-color: #fdb462}    
+.resource_type_6 {background-color: #e5c494}    
+.resource_type_7 {background-color: #b3de69}   
+.resource_type_8 {background-color: #fccde5}    
+
+.container { 
+-webkit-box-shadow: inset 0px 0px 175px 3px rgba(0,0,0,0.17);
+-moz-box-shadow: inset 0px 0px 175px 3px rgba(0,0,0,0.17);
+box-shadow: inset 0px 0px 175px 3px rgba(0,0,0,0.17);
+background-url: http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=5c5c5c&density=56&opacity=5
+}
+
+.btn-group { 
+    margin-left:-15px;
+}
 
 .grid-item { 
-    width: 150px; 
+
     border:1px solid black; 
-    margin: 15px 0.5%; 
+    margin: 10px 5px; 
     position:relative;
     height:180px;
 }
 
+
 .category-column { 
-    
+    width:25%;
+    float:left;
 }
 
 .sort-container { 
@@ -23,6 +54,15 @@
     
 }
 
+.column-header { 
+    height:2em;
+    margin-left:6px;
+    border-left:1px solid black;
+    border-right:1px solid black;
+    padding:0px 4px;
+    margin-right:4px;
+    text-align: center;
+}
 
 .fractional_capacity { 
     position:absolute;
@@ -49,7 +89,7 @@
 .name { 
     margin:0px;
     padding:3px;
-    background-color:#ccc;
+    
     height:2.5em;
 }
 

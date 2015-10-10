@@ -32,6 +32,14 @@ var $grid = $('.grid').isotope({
 
 $('.exchange_mechanism_btn').click(function(){ 
   
+  $('.category-column-1 .column-header').text('Money');
+  $('.category-column-2 .column-header').text('Voluntary');
+  $('.category-column-3 .column-header').text('Digital');
+  $('.category-column-4 .column-header').text('Public');
+
+  $('.btn-default').removeClass('active'); 
+  $('.exchange_mechanism_btn').addClass('active'); 
+
   $('.grid-item').fadeOut();
 
 
@@ -46,7 +54,18 @@ $('.exchange_mechanism_btn').click(function(){
 });
 
 
+
 $('.resource_structure_btn').click(function(){ 
+
+  $('.category-column-1 .column-header').text('Private');
+  $('.category-column-2 .column-header').html('Knowledge <br/> Commons');
+  $('.category-column-3 .column-header').text('Other');
+  $('.category-column-4 .column-header').text('Public');
+
+
+  
+  $('.btn-default').removeClass('active'); 
+  $('.resource_structure_btn').addClass('active');   
   
   $('.grid-item').fadeOut();
 
@@ -64,6 +83,14 @@ $('.resource_structure_btn').click(function(){
 
 $('.fractional_capacity_btn').click(function(){
 
+  $('.category-column-1 .column-header').text('Not about spare capacity');
+  $('.category-column-2 .column-header').text('A bit...');
+  $('.category-column-3 .column-header').text('... a bit more');
+  $('.category-column-4 .column-header').text('Fundamentally about spare capacity'); 
+
+  $('.btn-default').removeClass('active'); 
+  $('.fractional_capacity_btn').addClass('active');   
+
   $('.grid-item').fadeOut();
 
 
@@ -79,13 +106,16 @@ $('.fractional_capacity_btn').click(function(){
 
 });
 
-$('.resource_type_btn').click(function(){ 
-    $grid.isotope({ 
-        sortBy: 'resource_type' 
-    });
+
+$('.grid-item').each(function(key, val) { 
+  var resource_type = $(val).find('.resource-type').data('resource-type'); 
+
+  $(val).find('h4').addClass('resource_type_' + resource_type); 
 });
 
 
+$('.resource_structure_btn').trigger('click')  
 
-
-  
+$(function () {
+  $('[data-toggle="tooltip"]').tooltip()
+})
