@@ -7,17 +7,31 @@
 
 
 .grid-item { 
-    width: 18%; 
+    width: 150px; 
     border:1px solid black; 
-    margin:0.5% 0.5%; 
-    
+    margin: 15px 0.5%; 
+    position:relative;
     height:180px;
+}
+
+.category-column { 
+    
 }
 
 .sort-container { 
     padding:10px 3px;
     
 }
+
+
+.fractional_capacity { 
+    position:absolute;
+    bottom:2px;
+    right:2px;
+    width:24px;
+}
+
+
 
 .organisation-structure { 
     position:absolute;

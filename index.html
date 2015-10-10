@@ -25,25 +25,13 @@
     </head>
     <body>
 
-        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-          <div class="container">
-            <div class='row'>
-                <div class='col-md-3'>
-                    <a class="navbar-brand" href="#">Social Coordination Typology</a>
-                </div>
-                <div class='col-md-9'>
 
-                </div>
-                
-            </div>
-          </div>
-        </nav>
 
    
 
         <div class="container">
             
-            <div class='row'>
+            <div class='grid'>
                 <div class='col-md-3'>
                     <p>Oh hai</p>
                 </div>
@@ -53,315 +41,351 @@
                                                                 
                         <button class="btn btn-default exchange_mechanism_btn" >Method of Exchange </button>
                         <button class="btn btn-default resource_structure_btn" >Resource Structure</button>
-                        <button class="btn btn-default " >Fractional Capacity</button>
-                        <button class="btn btn-default resource_type_btn" >Resource type</button>
+                        <button class="btn btn-default fractional_capacity_btn" >Fractional Capacity</button>
+                        
                     </div>
-                    <div class="grid">
-                        <div class="grid-item">
-                            <h4 class='name'>FarmDrop</h4>
-                            <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Money</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private goods</div>
-                            <img class='resource-type' data-resource-type='1' alt='resource type food' src='images/org_type_food.png' />
-                        </div>
-                
-                        <!-- ************ -->
+                    <div class="row">
+                        <div class='category-column category-column-1 '> 
+                            <div class="grid-item">
+                                <h4 class='name'>FarmDrop</h4>
+                                <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
+                                <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Money</div>
+                                <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
+                                <img class='resource-type' data-resource-type='1' alt='resource type food' src='images/org_type_food.png' />
 
-                        <div class="grid-item">
-                            <h4 class='name'>Open Food <br/> Network</h4>
-                            <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Money</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private goods</div>
-                            <img class='resource-type' data-resource-type='1' alt='resource type food' src='images/org_type_food.png' />
-                        </div>
-                
-                        <!-- ************ -->
-                
-                        <div class="grid-item">
-                            <h4 class='name'>Impact Hubs</h4>
-                            <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Money</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private Goods</div>
-                            <img class='resource-type' data-resource-type='2' alt='resource type office space' src='images/org_type_office.png' />
-                        </div>
-                
-                        <!-- ************ -->     
-                
-                        <div class="grid-item">
-                            <h4 class='name'>Uber</h4>
-                            <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Money</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private Goods</div>
-                            <img class='resource-type' data-resource-type='3' alt='resource type transport' src='images/org_type_transport.png' />
-                        </div>
-                
-                        <!-- ************ -->  
-                
-                        <div class="grid-item">
-                            <h4 class='name'>BlaBlaCar</h4>
-                            <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Money / Cost sharing</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private Goods</div>
-                            <img class='resource-type' data-resource-type='3' alt='resource type transport' src='images/org_type_transport.png' />
-                        </div>
-                
-                        <!-- ************ -->
+                                <img src='images/pie_empty.png' class='fractional_capacity' data-fractional-capacity='1' /> 
+                            </div>
+                    
+                            <!-- ************ -->
 
-                        <div class="grid-item">
-                            <h4 class='name'>Stack Exchange</h4>
-                            <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Points</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Knowledge Commons</div>
-                            <img class='resource-type' data-resource-type='4' alt='resource type knowledge' src='images/org_type_knowledge.png' />
-                        </div>
-                
-                        <!-- ************ -->   
-                
-                        <div class="grid-item">
-                            <h4 class='name'>Kaggle</h4>
-                            <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Money</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private goods</div>
-                            <img class='resource-type' data-resource-type='4' alt='resource type knowledge' src='images/org_type_knowledge.png' />
-                        </div>
-                
-                        <!-- ************ -->  
-                
-                        <div class="grid-item">
-                            <h4 class='name'>Edgeryders</h4>
-                            <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Reputation</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Knowledge commons</div>
-                            <img class='resource-type' data-resource-type='4' alt='resource type knowledge' src='images/org_type_knowledge.png' />
-                        </div>
-                
-                        <!-- ************ -->   
+                            <div class="grid-item">
+                                <h4 class='name'>Open Food <br/> Network</h4>
+                                <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
+                                <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Money</div>
+                                <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
+                                <img class='resource-type' data-resource-type='1' alt='resource type food' src='images/org_type_food.png' />
+                                <img src='images/pie_empty.png' class='fractional_capacity' data-fractional-capacity='1' />
+                                
+                            </div>
+                    
+                            <!-- ************ -->
+                    
+                            <div class="grid-item">
+                                <h4 class='name'>Impact Hubs</h4>
+                                <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
+                                <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Money</div>
+                                <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
+                                <img class='resource-type' data-resource-type='2' alt='resource type office space' src='images/org_type_office.png' />
 
-                        <div class="grid-item">
-                            <h4 class='name'>Open School <br/>East</h4>
-                            <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Voluntary</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
-                            <img class='resource-type' data-resource-type='5' alt='resource type education' src='images/org_type_education.png' />
-                        </div>
-                
-                        <!-- ************ -->   
-                
-                        <div class="grid-item">
-                            <h4 class='name'>Open Politics Manifesto</h4>
-                            <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Voluntary</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>na</div>
-                            <img class='resource-type' data-resource-type='4' alt='resource type knowledge' src='images/org_type_knowledge.png' />
-                        </div>
-                
-                        <!-- ************ -->       
-                
-                        <div class="grid-item">
-                            <h4 class='name'>Kickstarter</h4>
-                            <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Money</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private(usually)</div>
-                            <img class='resource-type' data-resource-type='7' alt='resource type household goods' src='images/org_type_goods.png' />
-                        </div>
-                
-                        <!-- ************ -->
-                
-                        <div class="grid-item">
-                            <h4 class='name'>Couchsurfing</h4>
-                            <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
+                                <img src='images/pie_quarter.png' class='fractional_capacity' data-fractional-capacity='2' />
+                            </div>
+                    
+                            <!-- ************ -->     
+                    
+                            <div class="grid-item">
+                                <h4 class='name'>Uber</h4>
+                                <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
+                                <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Money</div>
+                                <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
+                                <img class='resource-type' data-resource-type='3' alt='resource type transport' src='images/org_type_transport.png' />
+                                <img src='images/pie_quarter.png' class='fractional_capacity' data-fractional-capacity='2' />
+                            </div>
 
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Voluntary</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
-                            <img class='resource-type' data-resource-type='8' alt='resource type accommodation' src='images/org_type_accommodation.png' />
-                        </div>
-                
-                        <!-- ************ -->                
+                            <!-- ************ --> 
 
-                        <div class="grid-item">
-                            <h4 class='name'>Landshare</h4>
-                            <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
+                            <div class="grid-item">
+                                <h4 class='name'>Makerfox</h4>
+                                <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
 
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Voluntary</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
-                            <img class='resource-type' data-resource-type='9' alt='resource type land' src='images/org_type_land.png' />
-                        </div>
-                
-                        <!-- ************ -->                 
+                                <div class='exchange-mechanism' data-exchange-mechanism='2'><span class='exchange-label'>Mechanic: </span>Direct exchange</div>
+                                <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
+                                <img class='resource-type' data-resource-type='7' alt='resource type household goods' src='images/org_type_goods.png' />
 
-                        <div class="grid-item">
-                            <h4 class='name'>Kahn Academy</h4>
-                            <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
+                                <img src='images/pie_quarter.png' class='fractional_capacity' data-fractional-capacity='2' />
+                            </div>
+                    
+                            <!-- ************ -->           
 
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Voluntary // centrally provided</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
-                            <img class='resource-type' data-resource-type='5' alt='resource type education' src='images/org_type_education.png' />
-                        </div>
-                
-                        <!-- ************ -->                                              
-                
-                        <div class="grid-item">
-                            <h4 class='name'>UK Common <br/> Land</h4>
-                            <img class='organisation-structure' data-organisation-structure='2'  alt='its complicated' src='images/org_status_asterix.png' />
-                            
-         
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Various quotas</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Common Pool Resource</div>
-                            <img class='resource-type' data-resource-type='9' alt='resource type land' src='images/org_type_land.png' />
-                        </div>
-                
-      
-                
-                        <!-- ************ -->  
-                
-                        <div class="grid-item">
-                            <h4 class='name'>Freecycle</h4>
-                            <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
+                            <div class="grid-item">
+                                <h4 class='name'>Augur</h4>
+                                <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
 
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Voluntary</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
-                            <img class='resource-type' data-resource-type='7' alt='resource type household goods' src='images/org_type_goods.png' />
-                        </div>
-                
-                        <!-- ************ -->  
-                
-                        <div class="grid-item">
-                            <h4 class='name'>Streetbank</h4>
-                            <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
+                                <div class='exchange-mechanism' data-exchange-mechanism='3'><span class='exchange-label'>Mechanic: </span>Cryptocurrency</div>
+                                <div class='resource-structure' data-resource-structure='2'><span class='type-label'>Type: </span>Knowledge Commons</div>
+                                <img class='resource-type' data-resource-type='4' src='images/org_type_knowledge.png' />
+                                <img src='images/pie_quarter.png' class='fractional_capacity' data-fractional-capacity='2' />
+                            </div>
+                    
+                            <!-- ************ -->
 
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Voluntary</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
-                            <img class='resource-type' data-resource-type='7' alt='resource type household goods' src='images/org_type_goods.png' />
-                        </div>
-                
-                        <!-- ************ -->
+                            <div class="grid-item">
+                                <h4 class='name'>Etsy</h4>
+                                <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
+                                <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Money</div>
+                                <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
+                                <img class='resource-type' data-resource-type='7' alt='resource type household goods' src='images/org_type_goods.png' />
+                                <img src='images/pie_half.png' class='fractional_capacity' data-fractional-capacity='3' />
+                            </div>
+                    
+                            <!-- ************ --> 
 
-                        <div class="grid-item">
-                            <h4 class='name'>Udacity</h4>
-                            <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Money</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Club</div>
-                            <img class='resource-type' data-resource-type='5' alt='resource type education' src='images/org_type_education.png' />
+                            <div class="grid-item">
+                                <h4 class='name'>Github <br/>(open repo)</h4>
+                                <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
+                                <div class='exchange-mechanism' data-exchange-mechanism='4'><span class='exchange-label'>Mechanic: </span>Voluntary</div>
+                                <div class='resource-structure' data-resource-structure='2'><span class='type-label'>Type: </span>Knowledge Commons</div>
+                                <img class='resource-type' data-resource-type='4' src='images/org_type_knowledge.png' />
+                                <img src='images/pie_quarter.png' class='fractional_capacity' data-fractional-capacity='2' />
+                            </div>
+                    
+                            <!-- ************ -->     
                         </div>
+
+
+                        <div class='category-column category-column-2'>
+                            <div class="grid-item">
+                                <h4 class='name'>BlaBlaCar</h4>
+                                <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
+                                <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Money / Cost sharing</div>
+                                <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private Goods</div>
+                                <img class='resource-type' data-resource-type='3' alt='resource type transport' src='images/org_type_transport.png' />
+                                <img src='images/pie_full.png' class='fractional_capacity' data-fractional-capacity='4' />
+                            </div>
+                    
+                            <!-- ************ -->
+
+                            <div class="grid-item">
+                                <h4 class='name'>Stack Overflow</h4>
+                                <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
+                                <div class='exchange-mechanism' data-exchange-mechanism='3'><span class='exchange-label'>Mechanic: </span>Points</div>
+                                <div class='resource-structure' data-resource-structure='2'><span class='type-label'>Type: </span>Knowledge Commons</div>
+                                <img class='resource-type' data-resource-type='4' alt='resource type knowledge' src='images/org_type_knowledge.png' />
+                                <img src='images/pie_half.png' class='fractional_capacity' data-fractional-capacity='3' />
+                            </div>
+                    
+                            <!-- ************ -->   
+                    
+                            <div class="grid-item">
+                                <h4 class='name'>Kaggle</h4>
+                                <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
+                                <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Money</div>
+                                <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
+                                <img class='resource-type' data-resource-type='4' alt='resource type knowledge' src='images/org_type_knowledge.png' />
+                                <img src='images/pie_half.png' class='fractional_capacity' data-fractional-capacity='3' />
+                            </div>
+                    
+                            <!-- ************ -->  
+                    
+                            <div class="grid-item">
+                                <h4 class='name'>Edgeryders</h4>
+                                <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
+                                <div class='exchange-mechanism' data-exchange-mechanism='3'><span class='exchange-label'>Mechanic: </span>Reputation</div>
+                                <div class='resource-structure' data-resource-structure='2'><span class='type-label'>Type: </span>Knowledge commons</div>
+                                <img class='resource-type' data-resource-type='4' alt='resource type knowledge' src='images/org_type_knowledge.png' />
+                                <img src='images/pie_quarter.png' class='fractional_capacity' data-fractional-capacity='2' />
+                            </div>
+                    
+                            <!-- ************ -->   
+
+                            <div class="grid-item">
+                                <h4 class='name'>Open School <br/>East</h4>
+                                <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
+                                <div class='exchange-mechanism' data-exchange-mechanism='4'><span class='exchange-label'>Mechanic: </span>Voluntary</div>
+                                <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
+                                <img class='resource-type' data-resource-type='5' alt='resource type education' src='images/org_type_education.png' />
+                                <img src='images/pie_half.png' class='fractional_capacity' data-fractional-capacity='3' />
+                            </div>
+                    
+                            <!-- ************ -->   
+                    
+                            <div class="grid-item">
+                                <h4 class='name'>Open Politics Manifesto</h4>
+                                <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
+                                <div class='exchange-mechanism' data-exchange-mechanism='4'><span class='exchange-label'>Mechanic: </span>Voluntary</div>
+                                <div class='resource-structure' data-resource-structure='4'><span class='type-label'>Type: </span>na</div>
+                                <img class='resource-type' data-resource-type='4' alt='resource type knowledge' src='images/org_type_knowledge.png' />
+                                <img src='images/pie_half.png' class='fractional_capacity' data-frational-capacity='3' />
+                            </div>
+                    
+                            <!-- ************ -->       
+                    
+                            <div class="grid-item">
+                                <h4 class='name'>Kickstarter</h4>
+                                <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
+                                <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Money</div>
+                                <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private(usually)</div>
+                                <img class='resource-type' data-resource-type='7' alt='resource type household goods' src='images/org_type_goods.png' />
+                                <img src='images/pie_half.png' class='fractional_capacity' data-fractional-capacity='3' />
+                            </div>
+                    
+                            <!-- ************ -->
+                        </div>
+                        <div class='category-column category-column-3'>
                 
-                        <!-- ************ -->                                                                                                                                                      
+                            <div class="grid-item">
+                                <h4 class='name'>Couchsurfing</h4>
+                                <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
+
+                                <div class='exchange-mechanism' data-exchange-mechanism='4'><span class='exchange-label'>Mechanic: </span>Voluntary</div>
+                                <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
+                                <img class='resource-type' data-resource-type='8' alt='resource type accommodation' src='images/org_type_accommodation.png' />
+
+                                <img src='images/pie_full.png' class='fractional_capacity' data-fractional-capacity='4' />
+                            </div>
+                    
+                            <!-- ************ -->  
+
+                            <div class="grid-item">
+                                <h4 class='name'>AirBnB</h4>
+                                <img class='organisation-structure' data-organisation-structure='1'  alt='for profit' src='images/org_status_profit.png' />
+
+                                <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Money</div>
+                                <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
+                                <img class='resource-type' data-resource-type='8' alt='resource type accommodation' src='images/org_type_accommodation.png' />
+                                <img src='images/pie_full.png' class='fractional_capacity' data-fractional-capacity='4' />
+                            </div>
+                    
+                            <!-- ************ -->                                        
+
+                            <div class="grid-item">
+                                <h4 class='name'>Landshare</h4>
+                                <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
+
+                                <div class='exchange-mechanism' data-exchange-mechanism='4'><span class='exchange-label'>Mechanic: </span>Voluntary</div>
+                                <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
+                                <img class='resource-type' data-resource-type='9' alt='resource type land' src='images/org_type_land.png' />
+                                <img src='images/pie_full.png' class='fractional_capacity' data-fractional-capacity='4' />
+                            </div>
+                    
+                            <!-- ************ -->                 
+
+                            <div class="grid-item">
+                                <h4 class='name'>Kahn Academy</h4>
+                                <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
+
+                                <div class='exchange-mechanism' data-exchange-mechanism='4'><span class='exchange-label'>Mechanic: </span>Voluntary // centrally provided</div>
+                                <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
+                                <img class='resource-type' data-resource-type='5' alt='resource type education' src='images/org_type_education.png' />
+                                <img src='images/pie_quarter.png' class='fractional_capacity' data-fractional-capacity='2' />
+                            </div>
+                    
+                            <!-- ************ -->                                              
+                    
         
-                        <div class="grid-item">
-                            <h4 class='name'>EdX</h4>
-                            <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
-
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Centrally provided</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Club</div>
-                            <img class='resource-type' data-resource-type='5' alt='resource type education' src='images/org_type_education.png' />
                         </div>
+      
+                        <div class='category-column category-column-4'>
+                            <!-- ************ -->  
+                    
+                            <div class="grid-item">
+                                <h4 class='name'>Freecycle</h4>
+                                <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
+
+                                <div class='exchange-mechanism' data-exchange-mechanism='4'><span class='exchange-label'>Mechanic: </span>Voluntary</div>
+                                <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
+                                <img class='resource-type' data-resource-type='7' alt='resource type household goods' src='images/org_type_goods.png' />
+                                <img src='images/pie_quarter.png' class='fractional_capacity' data-fractional-capacity='2' />
+                            </div>
+                    
+                            <!-- ************ -->  
+                    
+                            <div class="grid-item">
+                                <h4 class='name'>Streetbank</h4>
+                                <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
+
+                                <div class='exchange-mechanism' data-exchange-mechanism='4'><span class='exchange-label'>Mechanic: </span>Voluntary</div>
+                                <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
+                                <img class='resource-type' data-resource-type='7' alt='resource type household goods' src='images/org_type_goods.png' />
+                                <img src='images/pie_full.png' class='fractional_capacity' data-fractional-capacity='4' />
+                            </div>
+                    
+                            <!-- ************ -->
+
+                            <div class="grid-item">
+                                <h4 class='name'>Udacity</h4>
+                                <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
+                                <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Money</div>
+                                <div class='resource-structure' data-resource-structure='3'><span class='type-label'>Type: </span>Club</div>
+                                <img class='resource-type' data-resource-type='5' alt='resource type education' src='images/org_type_education.png' />
+                                <img src='images/pie_quarter.png' class='fractional_capacity' data-fractional-capacity='2' />
+                            </div>
+                    
+                            <!-- ************ -->                                                                                                                                                      
+            
+                            <div class="grid-item">
+                                <h4 class='name'>EdX</h4>
+                                <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
+
+                                <div class='exchange-mechanism' data-exchange-mechanism='4'><span class='exchange-label'>Mechanic: </span>Centrally provided</div>
+                                <div class='resource-structure' data-resource-structure='3'><span class='type-label'>Type: </span>Club</div>
+                                <img class='resource-type' data-resource-type='5' alt='resource type education' src='images/org_type_education.png' />
+                                <img src='images/pie_quarter.png' class='fractional_capacity' data-fractional-capacity='2' />
+                            </div>
+                    
+                            <!-- ************ -->        
+                   
+                            <div class="grid-item">
+                                <h4 class='name'>Peer-peer <br/> university</h4>
+                                <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
+
+                                <div class='exchange-mechanism' data-exchange-mechanism='4'><span class='exchange-label'>Mechanic: </span>Voluntary</div>
+                                <div class='resource-structure' data-resource-structure='2'><span class='type-label'>Type: </span>Knowledge Commons</div>
+                                <img class='resource-type' data-resource-type='5' alt='resource type education' src='images/org_type_education.png' />
+                                <img src='images/pie_half.png' class='fractional_capacity' data-fractional-capacity='3' />
+                            </div>
+                    
+                            <!-- ************ --> 
+
+                            <div class="grid-item">
+                                <h4 class='name'>Wikipedia</h4>
+                                <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
+
+                                <div class='exchange-mechanism' data-exchange-mechanism='4'><span class='exchange-label'>Mechanic: </span>Voluntary</div>
+                                <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Knowledge Commons</div>
+                                <img class='resource-type' data-resource-type='2' alt='resource type knowledge' src='images/org_type_knowledge.png' />
+                                <img src='images/pie_half.png' class='fractional_capacity' data-fractional-capacity='3' />
+                            </div>
+                    
                 
-                        <!-- ************ -->        
-               
-                        <div class="grid-item">
-                            <h4 class='name'>Peer-peer <br/> university</h4>
-                            <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
+                            <!-- ************ -->                
 
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Voluntary</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Knowledge Commons</div>
-                            <img class='resource-type' data-resource-type='5' alt='resource type education' src='images/org_type_education.png' />
-                        </div>
-                
-                        <!-- ************ --> 
+                            <div class="grid-item">
+                                <h4 class='name'>Galaxy Zoo</h4>
+                                <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
 
-                        <div class="grid-item">
-                            <h4 class='name'>Wikipedia</h4>
-                            <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
+                                <div class='exchange-mechanism' data-exchange-mechanism='4'><span class='exchange-label'>Mechanic: </span>voluntary</div>
+                                <div class='resource-structure' data-resource-structure='2'><span class='type-label'>Type: </span>Knowledge commons</div>
+                                <img class='resource-type' data-resource-type='4' alt='resource type knowledge' src='images/org_type_knowledge.png' />
+                                 <img src='images/pie_half.png' class='fractional_capacity' data-fractional-capacity='3' />
+                            </div>
+                    
+                            <!-- ************ -->               
 
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Voluntary</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Knowledge Commons</div>
-                            <img class='resource-type' data-resource-type='4' alt='resource type knowledge' src='images/org_type_knowledge.png' />
-                        </div>
-                
-                        <!-- ************ -->               
+                            <div class="grid-item">
+                                <h4 class='name'>Fix My Street</h4>
+                                <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
 
-                        <div class="grid-item">
-                            <h4 class='name'>AirBnB</h4>
-                            <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Money</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
-                            <img class='resource-type' data-resource-type='5' alt='resource type education' src='images/org_type_education.png' />
-                        </div>
-                
-                        <!-- ************ -->                
+                                <div class='exchange-mechanism' data-exchange-mechanism='4'><span class='exchange-label'>Mechanic: </span>voluntary</div>
+                                <div class='resource-structure' data-resource-structure='3'><span class='type-label'>Type: </span>Public</div>
+                                <img class='resource-type' data-resource-type='6' alt='resource type public goods' src='images/org_type_public.png' />
+                                 <img src='images/pie_half.png' class='fractional_capacity' data-fractional-capacity='3' />
+                            </div>
+                    
+                            <!-- ************ -->  
+                    
+                            <div class="grid-item">
+                                <h4 class='name'>CommonPlace</h4>
+                                <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
+                                <div class='exchange-mechanism' data-exchange-mechanism='4'><span class='exchange-label'>Mechanic: </span>voluntary</div>
+                                <div class='resource-structure' data-resource-structure='3'><span class='type-label'>Type: </span>Public</div>
+                                <img class='resource-type' data-resource-type='6' alt='resource type public goods' src='images/org_type_public.png' />
+                                 <img src='images/pie_half.png' class='fractional_capacity' data-fractional-capacity='3' />
+                            </div>
+                    
+                            <!-- ************ -->                          
 
-                        <div class="grid-item">
-                            <h4 class='name'>Galaxy Zoo</h4>
-                            <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
-
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>voluntary</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Knowledge commons</div>
-                            <img class='resource-type' data-resource-type='4' alt='resource type knowledge' src='images/org_type_knowledge.png' />
-                        </div>
-                
-                        <!-- ************ -->               
-
-                        <div class="grid-item">
-                            <h4 class='name'>Fix My Street</h4>
-                            <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
-
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>voluntary</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Public</div>
-                            <img class='resource-type' data-resource-type='6' alt='resource type public goods' src='images/org_type_public.png' />
-                        </div>
-                
-                        <!-- ************ -->  
-                
-                        <div class="grid-item">
-                            <h4 class='name'>CommonPlace</h4>
-                            <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>voluntary</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Public</div>
-                            <img class='resource-type' data-resource-type='6' alt='resource type public goods' src='images/org_type_public.png' />
-                        </div>
-                
-                        <!-- ************ -->                          
-
-                        <div class="grid-item">
-                            <h4 class='name'>Makerfox</h4>
-                            <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
-
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Direct exchange</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
-                            <img class='resource-type' data-resource-type='7' alt='resource type household goods' src='images/org_type_goods.png' />
-                        </div>
-                
-                        <!-- ************ -->           
-
-                        <div class="grid-item">
-                            <h4 class='name'>Augur</h4>
-                            <img class='organisation-structure' data-organisation-structure='0'  alt='not for profit' src='images/org_status_charity.png' />
-
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Cryptocurrency</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Knowledge Commons</div>
-                            <img class='resource-type' data-resource-type='4' src='images/org_type_knowledge.png' />
-                        </div>
-                
-                        <!-- ************ -->
-
-                        <div class="grid-item">
-                            <h4 class='name'>Etsy</h4>
-                            <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Money</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Private</div>
-                            <img class='resource-type' data-resource-type='7' alt='resource type household goods' src='images/org_type_goods.png' />
-                        </div>
-                
-                        <!-- ************ --> 
-
-                        <div class="grid-item">
-                            <h4 class='name'>Github <br/>(open repo)</h4>
-                            <img class='organisation-structure' data-organisation-structure='1'  alt='for_profit' src='images/org_status_profit.png' />
-                            <div class='exchange-mechanism' data-exchange-mechanism='1'><span class='exchange-label'>Mechanic: </span>Voluntary</div>
-                            <div class='resource-structure' data-resource-structure='1'><span class='type-label'>Type: </span>Knowledge Commons</div>
-                            <img class='resource-type' data-resource-type='4' src='images/org_type_knowledge.png' />
-                        </div>
-                
-                        <!-- ************ -->                            
+     
+                        </div>                  
 
                     </div>
                 </div>
