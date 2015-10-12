@@ -56,8 +56,13 @@ td{
     font-size:18px;
 }
 
+
+.grid-container { 
+    margin-top:17px;
+}
+
 .resource_type_1 {background-color: #8dd3c7}    
-.resource_type_2 {background-color: #ffffb3}    
+.resource_type_2 {background-color: #bc80bd}    
 .resource_type_3 {background-color: #bebada}    
 .resource_type_4 {background-color: #fb8072}    
 .resource_type_5 {background-color: #fdb462}    
