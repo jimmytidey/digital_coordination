@@ -6,6 +6,7 @@
 
 body { 
     padding-top:0px;
+    background-image: url(../images/halftone.png)
 }
 
 table {
@@ -32,9 +33,28 @@ td{
     text-align: center;
 }
 
+.intro-title { 
+     
+    margin-top:38px;
+    border-top: 5px solid black;
+    border-bottom:1px solid black;
+    margin-bottom:10px;
+}
 
+.intro { 
+    margin-top:35px;
+    margin-bottom:50px;
+    padding-left:30px;
+    line-height: 24px;
+}
 
+.description { 
+    padding-left:10px;
+}
 
+.bigger { 
+    font-size:18px;
+}
 
 .resource_type_1 {background-color: #8dd3c7}    
 .resource_type_2 {background-color: #ffffb3}    
@@ -43,22 +63,26 @@ td{
 .resource_type_5 {background-color: #fdb462}    
 .resource_type_6 {background-color: #e5c494}    
 .resource_type_7 {background-color: #b3de69}   
-.resource_type_8 {background-color: #fccde5}    
+.resource_type_8 {background-color: #fccde5}
+.resource_type_9 {background-color: #ccc}    
 
 .container { 
--webkit-box-shadow: inset 0px 0px 175px 3px rgba(0,0,0,0.17);
--moz-box-shadow: inset 0px 0px 175px 3px rgba(0,0,0,0.17);
-box-shadow: inset 0px 0px 175px 3px rgba(0,0,0,0.17);
-background-url: http://api.thumbr.it/whitenoise-361x370.png?background=ffffffff&noise=5c5c5c&density=56&opacity=5;
-padding-left:30px;
+    -webkit-box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.73);
+    -moz-box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.73);
+    box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.73);
+    padding-left:30px;
+    background-color:white;
+    color:#333;
+}
+.container p, .container h1, .container h2, .container h4, .container h4, .container span, .container a{
+     color:#444;
 }
 
-.sort-container { 
-    text-align: center;
-}
+
 
 .btn-group { 
     margin-left:-15px;
+    margin-bottom:10px;
 }
 
 h1 { 
@@ -82,6 +106,12 @@ h1 {
 
 } 
 
+.grid-item p{
+    font-size:11px;
+    margin-left:2px;
+    margin-top:6px;
+} 
+
 
 .category-column { 
     width:25%;
@@ -89,8 +119,13 @@ h1 {
 }
 
 .sort-container { 
-    padding:10px 3px;
-    
+    padding-top:5px;
+    padding-bottom:25px;
+    text-align: center;
+}
+
+.sort-container .btn { 
+    font-size:20px;
 }
 
 .column-header { 
@@ -99,7 +134,7 @@ h1 {
     border-left:1px solid black;
     border-right:1px solid black;
     padding:0px 4px;
-    margin-right:4px;
+    margin-right:5px;
     text-align: center;
 }
 
