@@ -61,7 +61,8 @@ td{
     margin-top:17px;
 }
 
-.resource_type_1 {background-color: #8dd3c7}    
+/*
+.resource_type_1 {background-color: }    
 .resource_type_2 {background-color: #bc80bd}    
 .resource_type_3 {background-color: #bebada}    
 .resource_type_4 {background-color: #fb8072}    
@@ -70,6 +71,7 @@ td{
 .resource_type_7 {background-color: #b3de69}   
 .resource_type_8 {background-color: #fccde5}
 .resource_type_9 {background-color: #ccc}    
+*/
 
 .container { 
     -webkit-box-shadow: 0px 0px 17px 1px rgba(0,0,0,0.73);
@@ -124,8 +126,8 @@ h1 {
 }
 
 .sort-container { 
-    padding-top:5px;
-    padding-bottom:25px;
+    padding-top:0px;
+    padding-bottom:15px;
     text-align: center;
 }
 
@@ -150,25 +152,28 @@ h1 {
     width:24px;
 }
 
-
+.underline { 
+    text-decoration:underline;
+}
 
 .organisation-structure { 
     position:absolute;
-    width:20px;
-    top:0px;
-    right:0px;
+    width:36px;
+    bottom:-6px;
+    right:20px;
 }
 
 .resource-type { 
     position:absolute;
-    left:1px;
-    bottom:1px;    
+    right:50px;
+    bottom:1px;
+    height:28px;    
 }
 
 .name { 
     margin:0px;
     padding:3px;
-    
+    background-color:#8dd3c7;
     height:2.5em;
 }
 
