@@ -102,10 +102,11 @@ h1 {
     border:1px solid black; 
     margin: 10px 5px; 
     position:relative;
-    height:180px;
+    height:140px;
     -webkit-box-shadow: 2px 2px 21px -1px rgba(0,0,0,0.75);
     -moz-box-shadow: 2px 2px 21px -1px rgba(0,0,0,0.75);
-    box-shadow: 2px 2px 21px -1px rgba(0,0,0,0.75);    
+    box-shadow: 2px 2px 21px -1px rgba(0,0,0,0.75);
+    
 }
 
 .grid-item div{
@@ -163,6 +164,10 @@ h1 {
     right:20px;
 }
 
+.organisation-structure, .resource-type, .fractional_capacity{ 
+    display:none;
+}
+
 .resource-type { 
     position:absolute;
     right:50px;
@@ -174,7 +179,7 @@ h1 {
     margin:0px;
     padding:3px;
     background-color:#8dd3c7;
-    height:2.5em;
+    height:2em;
 }
 
 .type-label, .exchange-label { 
@@ -183,6 +188,18 @@ h1 {
 
 .grid-item div { 
     font-size:12px;
+}
+
+.name { 
+    font-size:13px;
+}
+
+.grid-item-wrapper { 
+    display:none;    
+}
+
+.extended-set { 
+    display:none;
 }
 
 

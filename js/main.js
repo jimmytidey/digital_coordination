@@ -30,6 +30,39 @@ var $grid = $('.grid').isotope({
 */
 
 
+var vertical_state_change = function(){ 
+    var display_resource_type_ids = $(".vertical-selectors input:checkbox:checked").map(function(){
+      return parseInt($(this).val());
+    }).get(); 
+    
+    console.log(display_resource_type_ids);
+    
+    $('.grid-item').each(function(key,elem){ 
+        var type = parseInt($(elem).find('.resource-type').data("resource-type"));
+        
+        console.log('type', type);
+        console.log('array', display_resource_type_ids);
+        console.log($.inArray(type, display_resource_type_ids));
+        
+        if( $.inArray(type, display_resource_type_ids) !== -1) {
+            console.log('display');
+            $(elem).fadeIn({queue:true});
+        } 
+        else { 
+            console.log('remove');
+            $(elem).fadeOut({queue:true});
+        }      
+    });    
+}
+
+
+$(".vertical-selectors").click(function(event){
+   vertical_state_change()
+});
+
+vertical_state_change();
+
+
 $('.exchange_mechanism_btn').click(function(){ 
 
   $('.description').hide();
@@ -43,11 +76,11 @@ $('.exchange_mechanism_btn').click(function(){
   $('.btn-default').removeClass('active'); 
   $('.exchange_mechanism_btn').addClass('active'); 
 
-  $('.grid-item').fadeOut();
+  $('.grid-item-wrapper').fadeOut();
 
 
   setTimeout(function(){ 
-    $('.grid-item').each(function(key,elem){ 
+    $('.grid-item-wrapper').each(function(key,elem){ 
       var type = $(elem).find('.exchange-mechanism').data("exchange-mechanism");
       $(elem).appendTo('.category-column-'+type);
       $(elem).fadeIn({queue:true});
@@ -74,11 +107,11 @@ $('.resource_structure_btn').click(function(){
   $('.btn-default').removeClass('active'); 
   $('.resource_structure_btn').addClass('active');   
   
-  $('.grid-item').fadeOut();
+  $('.grid-item-wrapper').fadeOut();
 
 
   setTimeout(function(){ 
-    $('.grid-item').each(function(key,elem){ 
+    $('.grid-item-wrapper').each(function(key,elem){ 
       var type = $(elem).find('.resource-structure').data("resource-structure");
       $(elem).appendTo('.category-column-'+type);
       $(elem).fadeIn({queue:true});
@@ -101,11 +134,11 @@ $('.fractional_capacity_btn').click(function(){
   $('.btn-default').removeClass('active'); 
   $('.fractional_capacity_btn').addClass('active');   
 
-  $('.grid-item').fadeOut();
+  $('.grid-item-wrapper').fadeOut();
 
 
   setTimeout(function(){ 
-    $('.grid-item').each(function(key,elem){ 
+    $('.grid-item-wrapper').each(function(key,elem){ 
       var type = $(elem).find('.fractional_capacity').data("fractional-capacity");
       console.log(type);
       $(elem).appendTo('.category-column-'+type);
@@ -129,3 +162,4 @@ $('.resource_structure_btn').trigger('click')
 $(function () {
   $('[data-toggle="tooltip"]').tooltip()
 })
+
